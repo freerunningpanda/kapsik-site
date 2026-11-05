@@ -106,7 +106,7 @@
     <!-- ─── English ─────────────────────────────────────────────── -->
     <article id="en" lang="en">
       <h1>Kapsik — Privacy Policy</h1>
-      <p class="date">Effective date: November 2, 2026</p>
+      <p class="date">Effective date: November 4, 2026</p>
 
       <p>Kapsik (“the app”) is a medication reminder app developed by AlexPanda, an independent developer
         (“we”, “us”). This policy explains what data the app handles and how. It applies to the app in Google Play and
@@ -116,7 +116,7 @@
         <strong>In short</strong>
         <ul>
           <li>Your medications, schedules and intake history stay on your device. We never receive them.</li>
-          <li>Crash reports are sent only if you allow it, and they never include your medication data.</li>
+          <li>In the Google Play version, crash reports are sent only if you allow it, and they never include your medication data. The RuStore version sends nothing at all.</li>
           <li>No account, no ads, no tracking, and we never sell data.</li>
         </ul>
       </div>
@@ -131,13 +131,14 @@
       </ul>
       <p>This is health-related information. It is kept in the app’s private storage, which Android protects from other apps. It is not sent to us or to anyone else: the app has no server, and we have no way to access this data.</p>
 
-      <h2>2. Crash reports (optional)</h2>
+      <h2>2. Crash reports (optional, Google Play version only)</h2>
+      <p>This section applies only to the app from Google Play. The RuStore version has no crash reports and no internet access: it sends nothing.</p>
       <p>On first launch, the app asks whether you want to send crash reports. Nothing is sent until you agree. If you agree, then when the app crashes or hits an error, it sends a technical report through Firebase Crashlytics, a service provided by Google.</p>
       <p>A report contains:</p>
       <ul>
         <li>the type of the error and the place in the code where it happened (the text of the error is not sent, because it may contain your data);</li>
         <li>device model, Android version, processor type, amount of memory and free storage;</li>
-        <li>app version and whether it is the Google Play or the RuStore version;</li>
+        <li>app version and the store it came from;</li>
         <li>random identifiers created by Firebase (Crashlytics installation ID, Firebase installation ID, session ID).</li>
       </ul>
       <p>Reports do not contain your medications, schedules, intake history, name or contact details. We use them only to find and fix bugs. Where the law requires a legal basis (for example, the GDPR), the basis is your consent. You can turn reports on or off at any time: menu → About Kapsik → Send crash reports. When you turn them off, reports that have not been sent yet are deleted from your phone.</p>
@@ -156,7 +157,7 @@
         <li><strong>Alarms &amp; reminders</strong> — to deliver reminders exactly on time.</li>
         <li><strong>Run at startup</strong> — to restore reminders after the phone restarts.</li>
         <li><strong>Vibration</strong> — for reminder alerts.</li>
-        <li><strong>Internet and network state</strong> — only to send crash reports, if you allowed them.</li>
+        <li><strong>Internet and network state</strong> — only in the Google Play version, only to send crash reports, if you allowed them. The RuStore version does not request them.</li>
       </ul>
       <p>The app does not request access to your location, contacts, camera, microphone, photos or files.</p>
 
@@ -171,7 +172,7 @@
       <h2>6. How long data is kept and how to delete it</h2>
       <ul>
         <li><strong>Data on your device</strong> stays until you delete it. In the app you can remove dose marks and delete medications (deleting a medication also deletes its intake history). To delete everything, clear the app’s data in Android settings (Apps → Kapsik → Storage → Clear data) or uninstall the app. Files you exported stay where you saved them. Android backups in your Google account are kept and deleted according to Google’s rules; you can manage them in your Google account.</li>
-        <li><strong>Crash reports</strong> are deleted automatically after 90 days. You can ask us to delete them sooner by email. Reports contain only random identifiers and are not linked to your name, so we may be unable to find the ones that came from your device.</li>
+        <li><strong>Crash reports</strong> (Google Play version) are deleted automatically after 90 days. You can ask us to delete them sooner by email. Reports contain only random identifiers and are not linked to your name, so we may be unable to find the ones that came from your device.</li>
       </ul>
 
       <h2>7. Security</h2>
@@ -194,10 +195,10 @@
 
     <!-- ─── Русский ─────────────────────────────────────────────── -->
     <article id="ru" lang="ru">
-      <h1>Kapsik — Политика конфиденциальности</h1>
-      <p class="date">Дата вступления в силу: 2 ноября 2026 года</p>
+      <h1>Капсик — Политика конфиденциальности</h1>
+      <p class="date">Дата вступления в силу: 4 ноября 2026 года</p>
 
-      <p>Kapsik («приложение») — приложение для напоминаний о приёме лекарств. Разработчик — AlexPanda, частный
+      <p>Капсик (по-английски Kapsik, «приложение») — приложение для напоминаний о приёме лекарств. Разработчик — AlexPanda, частный
         разработчик («мы»). Эта политика объясняет, какие данные обрабатывает приложение и как. Она действует для
         приложения в Google Play и в RuStore.</p>
 
@@ -205,7 +206,7 @@
         <strong>Коротко</strong>
         <ul>
           <li>Ваши лекарства, расписания и журнал приёмов хранятся только на вашем устройстве. Мы их никогда не получаем.</li>
-          <li>Отчёты о сбоях отправляются, только если вы разрешили, и в них никогда нет данных о ваших лекарствах.</li>
+          <li>В версии из Google Play отчёты о сбоях отправляются, только если вы разрешили, и в них никогда нет данных о ваших лекарствах. Версия из RuStore не отправляет ничего.</li>
           <li>Без аккаунта, без рекламы, без слежки, и мы никогда не продаём данные.</li>
         </ul>
       </div>
@@ -220,13 +221,14 @@
       </ul>
       <p>Это сведения, связанные со здоровьем. Они хранятся в закрытом хранилище приложения, которое Android защищает от других приложений. Они не передаются ни нам, ни кому-либо ещё: у приложения нет сервера, и у нас нет доступа к этим данным.</p>
 
-      <h2>2. Отчёты о сбоях (по желанию)</h2>
+      <h2>2. Отчёты о сбоях (по желанию, только в версии из Google Play)</h2>
+      <p>Этот раздел касается только приложения из Google Play. В версии из RuStore отчётов о сбоях нет, и доступа к интернету у неё тоже нет: она ничего не отправляет.</p>
       <p>При первом запуске приложение спрашивает, согласны ли вы отправлять отчёты о сбоях. До вашего согласия ничего не отправляется. Если вы согласились, то при сбое или ошибке приложение отправит технический отчёт через Firebase Crashlytics — сервис компании Google.</p>
       <p>В отчёте есть:</p>
       <ul>
         <li>тип ошибки и место в коде, где она произошла (текст ошибки не отправляется: в нём могут быть ваши данные);</li>
         <li>модель устройства, версия Android, тип процессора, объём памяти и свободного места;</li>
-        <li>версия приложения и то, из какого она магазина — Google Play или RuStore;</li>
+        <li>версия приложения и магазин, из которого оно установлено;</li>
         <li>случайные идентификаторы, которые создаёт Firebase (идентификатор установки Crashlytics, идентификатор установки Firebase, идентификатор сеанса).</li>
       </ul>
       <p>В отчётах нет ваших лекарств, расписаний, журнала приёмов, имени и контактов. Мы используем отчёты только для поиска и исправления ошибок. Там, где закон требует правового основания (например, GDPR), основание — ваше согласие. Включить или выключить отчёты можно в любой момент: меню → «О приложении» → «Отправлять отчёты о сбоях». При выключении ещё не отправленные отчёты удаляются с телефона.</p>
@@ -245,7 +247,7 @@
         <li><strong>Будильники и напоминания</strong> — чтобы напоминания приходили точно вовремя.</li>
         <li><strong>Запуск при включении</strong> — чтобы восстановить напоминания после перезагрузки телефона.</li>
         <li><strong>Вибрация</strong> — для сигналов напоминаний.</li>
-        <li><strong>Интернет и состояние сети</strong> — только для отправки отчётов о сбоях, если вы их разрешили.</li>
+        <li><strong>Интернет и состояние сети</strong> — только в версии из Google Play и только для отправки отчётов о сбоях, если вы их разрешили. Версия из RuStore их не запрашивает.</li>
       </ul>
       <p>Приложение не запрашивает доступ к местоположению, контактам, камере, микрофону, фото и файлам.</p>
 
@@ -259,8 +261,8 @@
 
       <h2>6. Сколько хранятся данные и как их удалить</h2>
       <ul>
-        <li><strong>Данные на устройстве</strong> хранятся, пока вы их не удалите. В приложении можно убрать отметки о приёме и удалить лекарства (вместе с лекарством удаляется и его журнал приёмов). Чтобы удалить всё, очистите данные приложения в настройках Android («Приложения» → Kapsik → «Хранилище» → «Очистить данные») или удалите приложение. Выгруженные файлы остаются там, куда вы их сохранили. Резервные копии Android в аккаунте Google хранятся и удаляются по правилам Google; управлять ими можно в аккаунте Google.</li>
-        <li><strong>Отчёты о сбоях</strong> удаляются автоматически через 90 дней. Попросить удалить их раньше можно по электронной почте. В отчётах только случайные идентификаторы, они не связаны с вашим именем, поэтому найти отчёты именно с вашего устройства мы можем не суметь.</li>
+        <li><strong>Данные на устройстве</strong> хранятся, пока вы их не удалите. В приложении можно убрать отметки о приёме и удалить лекарства (вместе с лекарством удаляется и его журнал приёмов). Чтобы удалить всё, очистите данные приложения в настройках Android («Приложения» → Капсик → «Хранилище» → «Очистить данные») или удалите приложение. Выгруженные файлы остаются там, куда вы их сохранили. Резервные копии Android в аккаунте Google хранятся и удаляются по правилам Google; управлять ими можно в аккаунте Google.</li>
+        <li><strong>Отчёты о сбоях</strong> (версия из Google Play) удаляются автоматически через 90 дней. Попросить удалить их раньше можно по электронной почте. В отчётах только случайные идентификаторы, они не связаны с вашим именем, поэтому найти отчёты именно с вашего устройства мы можем не суметь.</li>
       </ul>
 
       <h2>7. Безопасность</h2>
